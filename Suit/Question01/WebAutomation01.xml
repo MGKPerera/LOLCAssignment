@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="LOLC Assignment 01">
+    <parameter name="SuiteName" value="Assignment 01" />
+
+    <test name="Assignment 01">
+
+        <classes>
+                        <class name="TestNG.Valid_Login01"></class>
+                        <class name="TestNG.Invalid_login02"></class>
+                        <class name="TestNG.APITest"></class>
+
+        </classes>
+    </test>
+
+</suite>
